@@ -1,4 +1,5 @@
 from django.core.urlresolvers import resolve
+from django.core.urlresolvers import reverse
 from django.test import TestCase
 from lists.views import home_page
 from django.http import HttpRequest
